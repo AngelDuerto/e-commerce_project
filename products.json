@@ -1,0 +1,95 @@
+[
+    {
+        "name": "Divine Philodendron",
+        "image": "images/plant1.jpg",
+        "price": "$18.99",
+        "description": "They are native to the tropical rainforests of Central and South America. Philodendrons are popular houseplants because they are easy to care for and have a variety of foliage.",
+        "link": "shop.html"
+    },
+
+    {
+        "name": "The fiddle-leaf fig",
+        "image": "images/plant2.jpg",
+        "price": "$22.97",
+        "description": "A flowering plant native to western Africa. It's a popular houseplant known for its large, violin-shaped leaves.",
+        "link": "shop.html"
+    },
+
+    {
+        "name": "Paradise plant",
+        "image": "images/plant3.jpg",
+        "price": "$32.95",
+        "description": "The paradise plant, known for its close resemblance to a palm tree, It's perfect for a modern and sophisticated office.",
+        "link": "shop.html"
+    },
+
+    {
+        "name": "Combinaison",
+        "image": "images/plant4.jpg",
+        "price": "$15.95",
+        "description": "A blend of our best plants, perfect for adding a natural touch to your life.",
+        "link": "shop.html"
+    },
+    {
+        "name": "Cuddly Cactus",
+        "image": "images/plant5.jpg",
+        "price": "$25.99",
+        "description": "The Cuddly Cactus gets its name due to the absence of spine clusters, making it a safe option to keep around pets and children.",
+        "link": "shop.html"
+    },
+
+    {
+        "name": "Spider Plant Variegated",
+        "image": "images/plant6.jpg",
+        "price": "$27.99",
+        "description": "The Spider Plant's easy-going nature and green and white striped foliage make it one of the most popular houseplants around.",
+        "link": "shop.html"
+    },
+
+    {
+        "name": "Peperomia Green Gold",
+        "image": "images/plant8.jpg",
+        "price": "$23.99",
+        "description": "The Peperomia Green Gold has thick fleshy leaves with striking green and gold variegation.",
+        "link": "shop.html"
+    },
+
+    {
+        "name": "ZZ Plant",
+        "image": "images/plant9.jpg",
+        "price": "$30.89",
+        "description": "The ZZ Plant is characterized by its waxy green leaves above the surface of its potting mix, and its large potato-like rhizomes underneath.",
+        "link": "shop.html"
+    },
+    {
+        "name": "Fairy Castle Cactus",
+        "image": "images/plant10.jpg",
+        "price": "$34.99",
+        "description": "The Fairy Castle Cactus gets its charming name due to its stalks resembling the architecture of a castle.",
+        "link": "shop.html"
+    },
+
+    {
+        "name": "Fiddle Leaf Fig",
+        "image": "images/plant11.jpg",
+        "price": "$50.99",
+        "description": "The Fiddle Leaf Fig (Ficus lyrata), is famous for its broad green leaves with prominent veining. ",
+        "link": "shop.html"
+    },
+
+    {
+        "name": "Large Majesty Palm",
+        "image": "images/plant12.jpg",
+        "price": "$54.99",
+        "description": "The Majesty Palm is a popular tropical palm known for its graceful, long green fronds. ",
+        "link": "shop.html"
+    },
+
+    {
+        "name": "Large Dracaena Compacta Cane",
+        "image": "images/plant13.jpg",
+        "price": "$58.99",
+        "description": "The Dracaena Compacta Cane is a tall and slender silhouette that is great in corners, and gets its name due to the growth habit being more compact than other varieties of Dracaena.",
+        "link": "shop.html"
+    }
+]
