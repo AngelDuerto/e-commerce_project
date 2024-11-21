@@ -1,13 +1,14 @@
 
+// JavaScript Object Notation
 // Fetch the products data from the 'products.json' file
 fetch('products.json')
-.then(response => response.json()) //convert JSON string into JavaScript object
+.then(response => response.json()) // Convert JSON string into JavaScript object
 .then(data => {
      // Get the product grid element by its ID where products will be displayed
     const productGrid = document.getElementById('productGrid');
 
       // Loop through each product in the data array
-    data.forEach(product => {
+    data.forEach(product => { // Product is handeling each object on the array
             // Create a new section element for each product
     const productSection = document.createElement('section');
 
@@ -28,5 +29,5 @@ fetch('products.json')
 
 .catch(error => {
      // Log any errors that occur while fetching or processing the data
-    console.error("Error loading the product dara:", error);
+    console.error("Error loading the product data:", error);
 });

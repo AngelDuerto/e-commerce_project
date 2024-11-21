@@ -1,5 +1,7 @@
 // Add an event listener to the form 
-document.getElementById('contacForm').addEventListener('submit', function(event) {
+document.getElementById('contacForm').addEventListener('submit', (event) =>  formValidation(event)) // get element by id from HTML. and attaches submit event on the form
+
+function formValidation(event) {
     event.preventDefault(); // Prevent form submission for validation
 
     // Getting data in the form fields
@@ -13,38 +15,38 @@ document.getElementById('contacForm').addEventListener('submit', function(event)
     const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
     // String to hold error messages
-    let isValid = true;
-    let errorMessage = '';
+    let validation = true;
+    let errorAlert = '';
 
     // Validate first name
-    if (!namePattern.test(firstName)) {
-        isValid = false;    // Mark form as invalid
-        errorMessage += 'First name must contain only letters.\n'; // Add error message
+    if (!namePattern.test(firstName)) { // checks if the firstName maches regular pattern (!) 
+        validation = false;    // Mark form as invalid
+        errorAlert += 'The First name must contain only letters.\n'; // Add error message, add new line
     }
 
     // Validate last name
-    if (!namePattern.test(lastName)) {
-        isValid = false; // Mark form as invalid
-        errorMessage += 'Last name must contain only letters.\n'; // Add error message
+    if (!namePattern.test(lastName)) { // checks if the lastName maches regular pattern (!) 
+        validation = false; // Mark form as invalid
+        errorAlert += 'The Last name must contain only letters.\n'; // Add error message, add new line
     }
 
     // Validate email
-    if (!emailPattern.test(email)) {
-        isValid = false; // Mark form as invalid
-        errorMessage += 'Please enter a valid email address.\n'; // Add error message
+    if (!emailPattern.test(email)) { // checks if the email maches regular pattern (!) 
+        validation = false; // Mark form as invalid
+        errorAlert += 'Please enter a valid email address.\n'; // Add error message, add new line
     }
 
     // Validate message
-    if (message.length < 10) {
-        isValid = false;  // Mark form as invalid
-        errorMessage += 'Message must be at least 10 characters long.\n'; // Add error message
+    if (message.length < 10) { // checks if length is less than 10
+        validation = false;  // Mark form as invalid
+        errorAlert += 'Message must be at least 10 characters long.\n'; // Append/Add error message, add new line
     }
 
     //Submit form if validation pass, and reset form
-    if (isValid) {
+    if (validation) {
         alert('We will contact you as soon as possible, thank you!'); // Show a success message
         event.target.reset(); // Reset the form fields
     } else {
-        alert(errorMessage); // Display accumulated error messages
+        alert(errorAlert); // Display accumulated error messages
     }
-});
+}

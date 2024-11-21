@@ -7,7 +7,7 @@
 
 body{
   background-color: #f4f4f4;
-  overflow-x: hidden;
+  overflow-x: hidden; 
   height: 100%;
   width: 100%;
 }
@@ -41,12 +41,6 @@ body{
   display: flex;
   gap: 40px;
   list-style: none;
-}
-
-.navLinks a {
-  text-decoration: none;
-  color: #333;
-  font-weight: bold;
 }
 
 .navLinks a {
